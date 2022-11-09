@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.nav ul{
+    display: flex;
+    padding: 18px 67px;
+    margin: 2px -120px;
+    width: 552px;
+    height: -41px;
+}
+
+.nav li{
+    list-style: none;
+}
+
+.nav a{    
+    text-decoration: none;
+    display: block;
+    font-size: small;
+    border-radius: 16px;
+    padding: 3px 21px;
+    margin: -3px 2px;
+    align-items: center;
+    color: black;
+    font-size: 1 rem;
+    font-weight: bold;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+a:hover{
+    color: white;
+   background-color: black;
+}
+
+h3{
+    display: inline-block;
+    padding: 14px 135px;
+    margin: 2px 61px;
+    font-size: 1.5em;
+    font-family: 'Rubik Bubbles', cursive;
+    cursor: pointer;
+}
+
+.nav{
+    display: inline-flex;
+    background-color: brown;
+    width: 100%;
+    height: 100%;
+    padding: 1px 68px;
+    margin: 12px -26px;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+body{
+background: url('icecream.jpg');
+width: 100%;
+height: 100%;
+
+
+
+} 
+
+#logimg img{
+    display: flex;
+    width: 23px;
+    height: 24px;
+    margin: 14px 335px;
+    padding: -23px -45px;
+    box-sizing: content-box;
+    cursor: pointer;
+}
+
+#logtext h5{
+    display: flex;
+    width: 40px;
+    height: -24px;
+    margin: 18px -326px;
+    cursor: pointer;
+} 
+
+#logtext h5:hover{
+    color: white;
+   background-color: black;
+   font-family: 'Baloo Bhai 2', cursive;
+   border-radius: 10px;
+}
+.social{
+    display: flex;;
+    width: 20px;
+    height: 21px;
+    padding: 2px -7px;
+    margin: 6px -157px;
+    cursor: pointer;
+    /* color: black; */
+}
+    /* color: black; */
+
+.social1 img{
+        width: 18px;
+        height: 23px;
+        padding: 2px 8px;
+        margin: 7px -129px;
+}
+
+.social2 img{
+    width: 23px;
+    height: 21px;
+    padding: 4px 7px;
+    margin: 5px -102px;
+}
+
+.social3 img{
+    width: 25px;
+    height: 24px;
+    padding: 2px 5px;
+    margin: 5px -68px;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lobster', cursive;
+
+}
+h2{
+    width: 328px;
+    height: 176px;
+    padding: 55px 497px;
+    margin: 216px 40px;
+    font-size: 5em;
+    font-family: 'Lobster', cursive;
+}
+
+h1{
+    width: 481px;
+    height: 52px;
+    padding: -19px -28px;
+    margin: -413px 450px;
+    font-size: 10em;
+
+}
